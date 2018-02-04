@@ -1,0 +1,895 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is Logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10409512844,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "placeOrderandVerify.Given_User_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5211502691,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to Sign in Page",
+            "match": {
+              "location": "placeOrderandVerify.When_User_Navigate_to_Sign_in_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5352121619,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Username and Password on Sign in Page",
+            "match": {
+              "location": "placeOrderandVerify.And_User_enters_Username_and_Password_on_Sign_in_Page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "someone@example.com",
+                  "Password123"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 633792416,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is logged in and is on My Account page",
+            "match": {
+              "location": "placeOrderandVerify.Then_User_is_logged_in_and_is_on_My_Account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5750212388,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Order T-Shirt and verfiy the Order is displayed in Order History page",
+        "description": "",
+        "id": "place-order-and-verify-if-the-order-is-displayed-in-order-history;order-t-shirt-and-verfiy-the-order-is-displayed-in-order-history-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1999037081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4766045045,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on T-SHIRTS tab",
+            "match": {
+              "location": "placeOrderandVerify.Given_User_clicks_on_TSHIRTS_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8248460798,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on the first displayed T-shirt",
+            "match": {
+              "location": "placeOrderandVerify.And_User_clicks_on_the_first_displayed_Tshirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185521589,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "T-shirt product page is displayed",
+            "match": {
+              "location": "placeOrderandVerify.Then_Tshirt_product_page_is_displayedd()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3310327920,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Add to Cart on product page",
+            "match": {
+              "location": "placeOrderandVerify.When_User_clicks_on_Add_to_Cart_on_product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 940731922,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Product successfully added to your shopping cart message is displayed",
+            "match": {
+              "location": "placeOrderandVerify.Then_Product_successfully_added_to_your_shopping_cart_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4700817502,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Proceed to checkout",
+            "match": {
+              "location": "placeOrderandVerify.When_User_clicks_on_Proceed_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218611222,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Shopping cart summary page is displayed",
+            "match": {
+              "location": "placeOrderandVerify.Then_Shopping_cart_summary_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4784784189,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Proceed to checkout on Summary breadcrumb",
+            "match": {
+              "location": "placeOrderandVerify.When_User_clicks_on_Proceed_to_checkout_on_Summary_breadcrumb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4492863711,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Proceed to checkout on Address breadcrumb",
+            "match": {
+              "location": "placeOrderandVerify.And_User_clicks_on_Proceed_to_checkout_on_Address_breadcrumb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3268843064,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User agrees to terms and condition on Shipping breadcrumb",
+            "match": {
+              "location": "placeOrderandVerify.And_User_agrees_to_terms_and_condition_on_Shipping_breadcrumb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4917698361,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on Proceed to checkout on Shipping breadcrumb",
+            "match": {
+              "location": "placeOrderandVerify.And_User_clicks_on_Proceed_to_checkout_on_Shipping_breadcrumb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4421770475,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on Pay by bank wire on payment breadcrumb",
+            "match": {
+              "location": "placeOrderandVerify.And_User_clicks_on_Pay_by_bank_wire()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4895926766,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on I confirm my order on Payment breadcrumb",
+            "match": {
+              "location": "placeOrderandVerify.And_User_clicks_on_I_confirm_my_order_on_Payment_breadcrumb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 871965275,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Order confirmation page along with order reference number is displayed",
+            "match": {
+              "location": "placeOrderandVerify.Then_Order_confirmation_page_along_with_order_reference_number_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6595713701,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on Back to orders link",
+            "match": {
+              "location": "placeOrderandVerify.When_User_clicks_on_Back_to_orders_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 364088135,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Order History page is displayed",
+            "match": {
+              "location": "placeOrderandVerify.Then_Order_History_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372635447,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is able to see the ordered product by verifying the reference number",
+            "match": {
+              "location": "placeOrderandVerify.And_User_is_able_to_see_the_ordered_product_by_verifying_the_reference_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4910305247,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Sign out",
+            "match": {
+              "location": "commonstepDefinitions.When_User_clicks_on_Sign_out()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 221333896,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is logged out",
+            "match": {
+              "location": "commonstepDefinitions.And_User_is_logged_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Place Order and verify if the order is displayed in Order history",
+    "description": "Description : This feature will place the order and verify if the order reference number is displayed in Order History page",
+    "id": "place-order-and-verify-if-the-order-is-displayed-in-order-history",
+    "keyword": "Feature",
+    "uri": "placeOrderandVerify.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3846160521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Update First Name in Personal Information on My Account Page",
+        "description": "",
+        "id": "update-personal-information-on-my-account-page;update-first-name-in-personal-information-on-my-account-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1303047240,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10288085595,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to home page",
+            "match": {
+              "location": "updatePersonalInformation.Given_User_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5576234172,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "updatePersonalInformation.When_User_clicks_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5834485120,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"someone@example.com\" and \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "someone@example.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Password123",
+                  "offset": 39
+                }
+              ],
+              "location": "updatePersonalInformation.And_User_enters_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605973648,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is logged in and My Account page is displayed",
+            "match": {
+              "location": "updatePersonalInformation.Then_User_is_logged_in_and_My_Account_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4381410892,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on My Personal Information button",
+            "match": {
+              "location": "updatePersonalInformation.When_User_click_on_My_Personal_Information_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711422214,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User update \"changedName\" with valid allowed name and enter valid \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "changedName",
+                  "offset": 13
+                },
+                {
+                  "val": "Password123",
+                  "offset": 67
+                }
+              ],
+              "location": "updatePersonalInformation.And_User_update_first_name_with_valid_allowed_name_and_enter_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3950464688,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Save",
+            "match": {
+              "location": "updatePersonalInformation.And_User_clicks_on_Save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 630853271,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Your personal information has been successfully updated message is displayed",
+            "match": {
+              "location": "updatePersonalInformation.Then_Your_personal_information_has_been_successfully_updated_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4917836921,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Sign out",
+            "match": {
+              "location": "commonstepDefinitions.When_User_clicks_on_Sign_out()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203303412,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is logged out",
+            "match": {
+              "location": "commonstepDefinitions.And_User_is_logged_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3652575413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Update First Name in Personal Information on My Account Page",
+        "description": "",
+        "id": "update-personal-information-on-my-account-page;update-first-name-in-personal-information-on-my-account-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1284392537,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11427458886,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to home page",
+            "match": {
+              "location": "updatePersonalInformation.Given_User_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6390197534,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "updatePersonalInformation.When_User_clicks_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5144292391,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"someone@example.com\" and \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "someone@example.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Password123",
+                  "offset": 39
+                }
+              ],
+              "location": "updatePersonalInformation.And_User_enters_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654932327,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is logged in and My Account page is displayed",
+            "match": {
+              "location": "updatePersonalInformation.Then_User_is_logged_in_and_My_Account_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4301721359,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on My Personal Information button",
+            "match": {
+              "location": "updatePersonalInformation.When_User_click_on_My_Personal_Information_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 715899045,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User update \"nameChanged\" with valid allowed name and enter valid \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nameChanged",
+                  "offset": 13
+                },
+                {
+                  "val": "Password123",
+                  "offset": 67
+                }
+              ],
+              "location": "updatePersonalInformation.And_User_update_first_name_with_valid_allowed_name_and_enter_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3970350565,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Save",
+            "match": {
+              "location": "updatePersonalInformation.And_User_clicks_on_Save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 593350256,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Your personal information has been successfully updated message is displayed",
+            "match": {
+              "location": "updatePersonalInformation.Then_Your_personal_information_has_been_successfully_updated_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4763607422,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Sign out",
+            "match": {
+              "location": "commonstepDefinitions.When_User_clicks_on_Sign_out()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188412214,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is logged out",
+            "match": {
+              "location": "commonstepDefinitions.And_User_is_logged_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3805469701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Update First Name in Personal Information on My Account Page",
+        "description": "",
+        "id": "update-personal-information-on-my-account-page;update-first-name-in-personal-information-on-my-account-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1371856340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11500046420,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to home page",
+            "match": {
+              "location": "updatePersonalInformation.Given_User_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4991486278,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "updatePersonalInformation.When_User_clicks_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5290789608,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"someone@example.com\" and \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "someone@example.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Password123",
+                  "offset": 39
+                }
+              ],
+              "location": "updatePersonalInformation.And_User_enters_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599342378,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is logged in and My Account page is displayed",
+            "match": {
+              "location": "updatePersonalInformation.Then_User_is_logged_in_and_My_Account_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4529575956,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on My Personal Information button",
+            "match": {
+              "location": "updatePersonalInformation.When_User_click_on_My_Personal_Information_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 694646698,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User update \"NewName\" with valid allowed name and enter valid \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NewName",
+                  "offset": 13
+                },
+                {
+                  "val": "Password123",
+                  "offset": 63
+                }
+              ],
+              "location": "updatePersonalInformation.And_User_update_first_name_with_valid_allowed_name_and_enter_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3959378693,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Save",
+            "match": {
+              "location": "updatePersonalInformation.And_User_clicks_on_Save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677531082,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Your personal information has been successfully updated message is displayed",
+            "match": {
+              "location": "updatePersonalInformation.Then_Your_personal_information_has_been_successfully_updated_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4915368505,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Sign out",
+            "match": {
+              "location": "commonstepDefinitions.When_User_clicks_on_Sign_out()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220447487,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is logged out",
+            "match": {
+              "location": "commonstepDefinitions.And_User_is_logged_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Update Personal Information on My Account Page",
+    "description": "Description: This feature will test if user is able to update the Personal Information on My Account page",
+    "id": "update-personal-information-on-my-account-page",
+    "keyword": "Feature",
+    "uri": "updatePersonalInformation.feature"
+  }
+]
